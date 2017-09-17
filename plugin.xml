@@ -18,7 +18,7 @@
   under the License.
 -->
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-stepex" version="0.0.4">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-stepex" version="0.0.5">
     <name>Cordova FCM Push Plugin</name>
     <description>Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated</description>
     <license>MIT</license>
@@ -57,8 +57,8 @@
 				</feature>
 		</config-file>
 
-        <framework src="com.google.firebase:firebase-core:10.0.1" />
-        <framework src="com.google.firebase:firebase-messaging:10.0.1" />
+        <framework src="com.google.firebase:firebase-core:11.0.1" />
+        <framework src="com.google.firebase:firebase-messaging:11.0.1" />
 
 		<framework src="src/android/FCMPlugin.gradle" custom="true" type="gradleReference"/>
 
